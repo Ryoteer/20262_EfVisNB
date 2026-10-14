@@ -33,10 +33,10 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - Ground
+  - Hand
   - Wall
-  - Player Hand
+  - Ground
+  - Camera
   m_SortingLayers:
   - name: Default
     uniqueID: 0

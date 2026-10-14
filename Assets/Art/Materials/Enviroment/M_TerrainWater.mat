@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: M_TerrainWater
   m_Shader: {fileID: -6465566751694194690, guid: 24c8ff6d1f069a5459a52c50e0af784c, type: 3}
-  m_Parent: {fileID: 2100000, guid: e07006cdbedb3fa41804555d1fe9c353, type: 2}
+  m_Parent: {fileID: 2100000, guid: 1870577e042528c4b8ecf283bbbd097d, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -42,6 +42,7 @@ Material:
     - _Depth: 2.5
     - _Distance: 5
     - _DistortionAmount: 0.05
+    - _QueueControl: 0
     m_Colors:
     - _DistortionOffset: {r: 0.25, g: 0.25, b: 0, a: 0}
     - _DistortionTiling: {r: 1, g: 1, b: 0, a: 0}

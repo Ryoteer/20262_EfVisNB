@@ -70,17 +70,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BaseSmoothIntensity: 0.5
+    - _BaseSmoothIntensity: 1
     - _BlendSmoothIntensity: 1
-    - _MaskAmount: 0
+    - _MaskAmount: 0.25
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _BaseTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _BlendTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _BaseTiling: {r: 2, g: 2, b: 0, a: 0}
+    - _BlendTiling: {r: 6, g: 6, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &3865749963982910684
+--- !u!114 &7642428914981038737
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
