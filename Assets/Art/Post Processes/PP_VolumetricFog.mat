@@ -41,10 +41,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _MaxDistance: 375
+    - _HorizonValue: 1
+    - _MaxDistance: 125
     - _MaxOpacity: 1
-    - _MinDistance: 125
-    - _MinOpacity: 0.625
+    - _MinDistance: 25
+    - _MinOpacity: 0.875
+    - _SkyBlendPower: 12.5
+    - _SkyValue: 0.5
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _Offset: {r: 0, g: 0.075, b: 0, a: 0}
