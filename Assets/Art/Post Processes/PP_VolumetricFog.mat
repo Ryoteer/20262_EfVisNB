@@ -41,15 +41,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _HorizonValue: 1
-    - _MaxDistance: 125
+    - _HorizonValue: 0.875
+    - _MaxDistance: 50
     - _MaxOpacity: 1
-    - _MinDistance: 25
+    - _MinDistance: 10
     - _MinOpacity: 0.875
-    - _SkyBlendPower: 12.5
-    - _SkyValue: 0.5
+    - _SkyBlendPower: 1
+    - _SkyValue: 1
+    - _UsesSkyBoxMask: 0
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 0.8962264, g: 0.8962264, b: 0.8962264, a: 0}
     - _Offset: {r: 0, g: 0.075, b: 0, a: 0}
     - _Tiling: {r: 0.25, g: 0.25, b: 0, a: 0}
   m_BuildTextureStacks: []
