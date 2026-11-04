@@ -1976,6 +1976,10 @@ MonoBehaviour:
   _groundLayer:
     serializedVersion: 2
     m_Bits: 1073741824
+  _interactRayLength: 3
+  _interactLayer:
+    serializedVersion: 2
+    m_Bits: 134217728
   _jumpForce: 8.75
   _moveSpeed: 5
   _sprintModifier: 2.5

@@ -22,6 +22,7 @@ public class ThirdPersonController : MonoBehaviour
     {
         _input.Enable();
 
+        _input.ThirdPersonPlayer.Interact.performed += InteractAction;
         _input.ThirdPersonPlayer.Jump.performed += JumpAction;
         _input.ThirdPersonPlayer.Movement.performed += MovementAction;
         _input.ThirdPersonPlayer.Movement.canceled += MovementCancel;
@@ -35,6 +36,7 @@ public class ThirdPersonController : MonoBehaviour
     {
         _input.Disable();
         
+        _input.ThirdPersonPlayer.Interact.performed -= InteractAction;
         _input.ThirdPersonPlayer.Jump.performed -= JumpAction;
         _input.ThirdPersonPlayer.Movement.performed -= MovementAction;
         _input.ThirdPersonPlayer.Movement.canceled -= MovementCancel;
@@ -42,6 +44,11 @@ public class ThirdPersonController : MonoBehaviour
         _input.ThirdPersonPlayer.Rotation.canceled -= RotationCancel;
         _input.ThirdPersonPlayer.Sprint.performed -= SprintAction;
         _input.ThirdPersonPlayer.Sprint.canceled -= SprintCancel;
+    }
+
+    private void InteractAction(InputAction.CallbackContext value)
+    {
+        _model.Interact();
     }
 
     private void JumpAction(InputAction.CallbackContext value)
